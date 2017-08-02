@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login</title>
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="icon/iconfont.css">
+	<script src="js/jquery-1.9.0.js"></script>
+	<script src="js/login.js"></script>
+</head>
+<body>
+	<div id="bg">
+		<img src="images/nav-logo.png">
+	</div>
+	<div id="registerWrap">
+		<p>用户登录</p>
+		<form action="index.html">
+			<div class="contianer">
+				<div class="icon Name">
+					<i class="icon iconfont icon-ren"></i>
+				</div>
+				<input type="text" placeholder="用户名" id="username" class="inp">
+				<span class="verification username_r"></span>
+			</div>
+			<div class="contianer">
+				<div class="icon Password">
+					<i class="icon iconfont icon-iconfontlock"></i>
+				</div>
+				<input type="password" placeholder="密码" id="password" class="inp">
+				<span class="verification password_r"></span>
+			</div>
+			<div class="contianer">
+				<input type="text" placeholder="验证码" id="code" class="inp" >
+				<div id="displayer"></div>
+				<a href="#" id="look">看不清？换图片</a>
+				<span class="verification code_r"></span>
+			</div>
+			<div class="login">
+				<input type="button" value="登录">
+				<div id="a_wrap">
+					<a href="register.html">用户注册</a>
+					<a href="">忘记密码?</a>
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

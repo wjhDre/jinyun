@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>register</title>
+	<link rel="stylesheet" href="css/register.css">
+	<link rel="stylesheet" href="icon/iconfont.css">
+	<script src="js/jquery-1.9.0.js"></script>
+	<script src="js/register.js"></script>
+</head>
+<body>
+	<div id="bg">
+		<img src="images/nav-logo.png">
+	</div>
+	<div id="registerWrap">
+		<p>用户注册</p>
+		<form action="login.html">
+			<div class="contianer ">
+				<div class="icon Phone"><i class="icon iconfont icon-shouji"></i></div>
+				<input type="text" placeholder="手机号码" id="phone" class="inp">
+				<span class="verification phone_r"></span>
+			</div>
+			<div class="contianer">
+				<div class="icon Code"><i class="icon iconfont icon-erweima"></i></div>
+				<input type="text" placeholder="" id="code" class="inp">
+				<div id="displayer"></div>
+				<input type="button" value="获取验证码" id="btn">
+				<span class="verification code_r"></span>
+			</div>
+			<div class="contianer">
+				<div class="icon Password"><i class="icon iconfont icon-iconfontlock"></i></div>
+				<input type="password" placeholder="登录密码" id="password" class="inp">
+				<span class="verification password_r"></span>
+			</div>
+			<div class="contianer">
+				<div class="icon Password2"><i class="icon iconfont icon-iconfontlock"></i></div>
+				<input type="password" placeholder="确认密码" id="password2" class="inp">
+				<span class="verification password2_r"></span>
+			</div>
+			<div class="agree">
+				<input type="button" value="同意协议并提交">
+				<a href="login.html">已注册？立即登录</a>
+				<div>注册即同意<a href="#">《伟达金云桥使用协议》</a></div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

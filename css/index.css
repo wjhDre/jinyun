@@ -1,0 +1,83 @@
+*{margin:0;padding:0;list-style:none;}
+html,body{width:100%;height:100%;}
+.swiper-container{
+	height:100%;
+}
+.swiper-slide{
+	width:100%;
+	height:100%;
+}
+.swiper-slide:nth-child(2){
+	background:url(../images/2.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.swiper-slide:nth-child(3){
+	background:url(../images/3.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.swiper-slide:nth-child(4){
+	background:url(../images/4.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.swiper-slide:nth-child(5){
+	background:url(../images/5.jpg) no-repeat;
+	background-size:100% 100%;
+}
+#topBar{
+	position:fixed;
+	top:0px;
+	z-index:99;
+	width:100%;
+	height:60px;
+	background:#000;
+	opacity:0.5;
+}
+@keyframes slideUp{
+	0%{top:0px;}
+	100%{top:-60px;}
+}
+@keyframes slideDown{
+	0%{top:-60px;}
+	100%{top:0px;}
+}
+#topBar ul{
+	margin:10px auto;
+	width:80%;
+	height:60px;
+	display:flex;
+	justify-content:space-between;
+}
+ul li{
+	float:left;
+	height:40px;
+	line-height:40px;
+	font-family:黑体;
+	color:#fff;
+}
+#yunBridge{
+	width:120px;
+	height:40px;
+}
+#user{
+	width: 40px;
+	height: 40px;
+	margin:0px 10px;
+	vertical-align:middle;
+}
+ul li a{
+	color:#fff;
+	text-decoration:none;
+}
+#quxian{
+	width:400px;
+	height: 300px;
+	position:absolute;
+	bottom:10%;
+}
+#table{
+	width:600px;
+	height: 400px;
+	position:absolute;
+	top:10%;
+	right:0;
+}
